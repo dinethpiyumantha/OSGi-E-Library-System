@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ebooksubscriber
+Bundle-SymbolicName: edu.els.ebooksubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.els.ebooksubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: edu.els.ebooksubscriber
+Import-Package: edu.els.ebookproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

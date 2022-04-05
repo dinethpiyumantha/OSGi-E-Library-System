@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Researchsubscriber
+Bundle-SymbolicName: edu.els.researchsubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.els.researchsubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: edu.els.researchsubscriber
+Import-Package: edu.els.researchproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

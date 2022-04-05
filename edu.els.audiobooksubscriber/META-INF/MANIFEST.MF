@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Audiobooksubscriber
+Bundle-SymbolicName: edu.els.audiobooksubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.els.audiobooksubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: edu.els.audiobooksubscriber
+Import-Package: edu.els.audiobook,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

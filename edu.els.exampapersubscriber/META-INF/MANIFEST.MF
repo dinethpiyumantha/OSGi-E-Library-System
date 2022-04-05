@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Exampapersubscriber
+Bundle-SymbolicName: edu.els.exampapersubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.els.exampapersubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: edu.els.exampapersubscriber
+Import-Package: edu.els.exampaperproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
